@@ -1,0 +1,38 @@
+name: my_login_page
+description: A new Flutter project.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.15.0
+
+  # Add other dependencies here
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# To customize the fonts, add assets, or specify additional settings:
+# Uncomment the following section if you plan to include assets or fonts.
+
+flutter:
+  uses-material-design: true
+
+  # assets:
+  #   - assets/images/
+  #   - assets/sounds/
+
+  # fonts:
+  #   - family: Roboto
+  #     fonts:
+  #       - asset: assets/fonts/Roboto-Regular.ttf
+  #       - asset: assets/fonts/Roboto-Bold.ttf
+  #         weight: 700
